@@ -1,0 +1,23 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Streamlit logs
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
