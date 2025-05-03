@@ -1,0 +1,70 @@
+
+---
+
+## 🔜 Phase 1 – UX Enhancements
+**Goal:** Make journaling faster, more expressive, and accessible
+
+### 🔲 Feature 1: Emoji Mood Selector
+- Add emoji + mood labels next to journal input
+- Combine with journal entry or store separately
+- Update DB schema if needed
+
+### 🔲 Feature 2: Voice Input Journaling
+- Record voice via browser
+- Transcribe with `speech_recognition`
+- Pre-fill text area with result
+
+---
+
+## 🔮 Phase 2 – Intelligence Layer
+**Goal:** Unlock self-awareness insights through analytics
+
+### 🔲 Feature 3: Language Detection
+- Use `langdetect` or `spaCy` to auto-detect language
+- Use fallback analyzers or API translation for unsupported languages
+
+### 🔲 Feature 4: Insights Dashboard
+- Most common mood
+- Top words on negative days
+- Mood vs. day of week graph
+- Mood trend over time
+
+---
+
+## 🔐 Phase 3 – System & Security
+**Goal:** Scale responsibly with structure and personalization
+
+### 🔲 Feature 5: User Authentication
+- Use Firebase Auth or session-based login
+- Personal journal per user
+
+### 🔲 Feature 6: Sentiment Plugin System
+- Auto-detect new analyzers in `/plugins`
+- Load via `importlib`
+- Extensible for OpenAI, custom models, etc.
+
+---
+
+## 📆 Phase 4 – Visual Analytics
+**Goal:** Show emotional progress clearly
+
+### 🔲 Feature 7: Monthly Mood Calendar
+- GitHub-style calendar plot
+- Color-code moods
+- Hover tooltips or click-to-view entry
+
+---
+
+## 🛠️ Future Enhancements
+- Download entries (PDF, CSV)
+- Real-time notifications or mood streaks
+- Mobile layout optimization
+- Daily mood summary email
+
+---
+
+## 🔗 GitHub Workflow Plan
+- Tag versions for each major phase
+- Create a new branch per feature (`feature/emoji-selector`, etc.)
+- Update this `DEV_NOTES.md` in each PR
+
