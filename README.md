@@ -117,6 +117,5 @@ This project is open-source under the [MIT License](LICENSE).
 Created by Manoj Reddy — based on personal experiences and a passion for mental wellness, data, and self-improvement through journaling.
 ```
 
----
+##work in progress
 
-Would you like me to generate the `requirements.txt` now to freeze all your installed packages?
